@@ -890,20 +890,6 @@
 						 <textarea class="form-control" id="mensaje" name="message" rows="5" placeholder="Mensaje"></textarea>
 						<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
 					</form>
-					<?php
-                        if($_GET['csuccess'] == 1){
-                            echo "<div class=\"alert alert-success alert-dismissable\">
-                                  <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
-                                  <strong>Su mensaje ha sido enviado!</strong>
-                                </div>";  
-                        }
-                        if($_GET['csuccess'] == -1){
-                            echo "<div class=\"alert alert-danger alert-dismissable\">
-                                  <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
-                                  <strong>Su mensaje no ha podido ser enviado!</strong>
-                                </div>";
-                        }
-                    ?>
 				</div>
 			</div>
 		</div>
