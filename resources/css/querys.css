@@ -1,0 +1,480 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+	body{
+		font-size: 23px;
+	}
+
+	header button{
+		left: 42%;
+	}
+
+    .about h2{
+        font-size: 70px;
+    }
+
+
+
+    .bkgGrey h3{
+    	font-size: 58px;
+    }
+
+     .bkgBlack img{
+     	height: 450px;
+     }
+
+    .profileRows h4{
+    	font-size: 21px;
+    }
+
+    .seguidores{
+    	width: 170px;
+    }
+
+    .crecimiento{
+    	width: 190px;
+    }
+
+    .impacto{
+		width: 140px;
+    }
+
+    .grid i{
+    	font-size: 45px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 160%;
+    }
+
+    .años{
+    	margin-top: 20px;
+    }
+
+    .reachContainer h2{
+    	font-size: 60px;
+    }
+
+    .contact h2{
+    	font-size: 70px;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+
+	body{
+		font-size: 20px;
+	}
+
+    header{
+       background-position: 50% 50%;        
+    }
+
+	.navBar{
+		width: 750px;
+	}
+
+	 .about h2{
+        font-size: 60px;
+    }
+
+
+    .seguidores{
+    	width: 160px;
+    }
+
+    .crecimiento{
+    	width: 170px;
+    }
+
+    .impacto{
+		width: 130px;
+    }
+
+    .pSmall{
+    	font-size: 10px;
+    }
+
+    .grid i{
+    	font-size: 40px;
+    }
+
+	.embajadorContainer h4{
+		font-size: 50px;
+	}
+
+	.contact h2{
+		font-size: 60px;
+	}
+	
+	.backTop_div{
+		height: 60px;
+	}
+
+}
+
+@media only screen and (max-width: 991px){
+    .contact .jumbotron{
+        height: 650px;
+    }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */                                             /* REDISEÑAR NAVBAR */
+@media only screen and (max-width: 768px) {
+
+    body{
+    	font-size: 19px;
+    }
+
+    header{
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
+        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
+        background-size: 100vh;
+        background-position: 50% 25%;
+        background-attachment: scroll;
+    }
+	
+	header .title{
+        font-size: 15vw;
+    }
+
+	.titleContainer h3{
+		font-size: 30px;
+	}
+
+	.bkgGrey h3{
+    	font-size: 40px;
+    }
+
+	.profileRows h4{
+		font-size: 16px;
+	}
+
+    .seguidores{
+    	width: 130px;
+    }
+
+    .crecimiento{
+    	width: 140px;
+    }
+
+    .impacto{
+		width: 105px;
+    }
+
+    .grid i{
+    	font-size: 35px;
+    }
+
+    .pSmall{
+    	font-size: 9px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 120%;
+    }
+
+    .años{
+    	margin-top: 23px;
+    }
+
+    .instagramAcc .logoWhite{
+    	height: 50px;
+    	margin-top: -15px;
+    }
+
+    .bkgBlack img{
+    	height: 550px;
+    	margin-bottom: 10px;
+    	margin-top: 15px;
+    }
+
+    .sebasPicDiv img{
+        content:url("images/sebastian2.jpg");
+    }
+
+    .rufasPicDiv img{
+        content:url("images/rufasFoto2.png");
+    }
+
+    .nicolePicDiv img{
+        content:url("images/amador2.jpg");
+    }
+
+    .oscarPicDiv img{
+        content:url("images/oscarluna2.jpg");
+    }
+
+    .jackPicDiv img{
+        content:url("images/jackvargas2.jpg");
+    }
+
+    .juanPicDiv img{
+        content:url("images/juancamilo2.jpg");
+    }
+    
+    .navBar{
+        display: none;
+    }
+
+    #mobile-nav-icon{
+        display: block;
+        background-color: #F1D13F;
+
+    }
+
+    #menu-icon-div{
+        display: none;
+    }
+
+    .footer_logo_div{
+        margin-bottom: 15px;
+    }
+
+ }
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+	body{
+		font-size: 18px;
+	}
+
+    header{
+        background-attachment: scroll;
+    }
+
+    .mobile-nav li{
+    	width: 88%;
+    }
+
+    #mobile-nav-icon{
+    	right: 9.5%;
+    	top: 3.5%;
+    }
+
+    .titleContainer{
+        height: 115px;
+    }
+
+	.about h2, .embajadorContainer h4, .contact h2{
+		font-size: 40px
+	}
+
+	.aboutP{
+		padding-top: 70px;
+		padding-bottom: 90px;
+	}
+	
+	.sliderContainer{
+		font-size: 13px;
+	}
+
+	.bkgGrey h3{
+		font-size: 20px;
+	}
+
+	.pSmall{
+		font-size: 5px;
+	}
+
+	.bkgBlack img{
+		height: 200px;
+	}
+
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+		padding-right: 0;
+	}
+
+    .col-xs-10{
+        margin-top: 25px;
+    }
+
+    .ion-social-twitter{
+        margin-top: 25px;
+    }
+
+	.grid i{
+		font-size: 25px;
+	}
+
+	.profileRowLast .col-xs-12 p{
+		font-size: 16px;
+	}
+
+    .años{
+        margin-left: 20px;
+    }
+
+	.instagramAcc .logoWhite{
+		height: 40px;
+		margin-top: -10px;
+		margin-right: 10px;
+	}
+
+	.profileRowLast .col-xs-12 div{
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+
+	.profileRowLast .col-xs-12 i{
+		font-size: 16px;
+	}
+
+	.profileRows h4{
+		font-size: 11px;
+		box-shadow: 5px;
+	}
+
+	.seguidores{
+    	width: 72px;
+    }
+
+    .crecimiento{
+    	width: 80px;
+    }
+
+    .impacto{
+		width: 60px;
+    }
+
+    .socialReachInner img{
+    	/*width: 300px;
+    	margin-left: -50px;*/
+    	display: none;
+    }
+
+
+	.smrNumber{
+/*		right: 4%;
+		font-size: 8vw;
+		top: 35%;*/
+		position: static;
+		font-size: 17vw;
+		 background: #f2994a; /* fallback for old browsers */
+ 		 background: -webkit-linear-gradient(to right, #f2994a, #f2c94c); /* Chrome 10-25, Safari 5.1-6 */
+         background: linear-gradient(to right, #f2994a, #f2c94c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.reachContainer h2{
+		margin-bottom: 20px;
+	}
+
+	.embajadorContainer{
+		margin-top: 60px;
+	}
+
+	.embajadorContainer h4{
+
+		margin-bottom: 5px;
+	}
+
+    .embajadorContainer .col-sm-2{
+        height: 110px;
+    }
+
+    .ion-ios-arrow-right, .ion-ios-arrow-left{
+    	font-size: 60px;
+    }
+ 
+ 	 .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+    	height: 45px;
+    	padding: 8px;
+    	font-size: 10px;
+    }
+	
+}
+
+@media only screen and (max-width: 375px){
+
+    .bkgBlack img{
+    	height: 150px;
+    	margin-top: 50px;
+    }
+
+	.grid i{
+		font-size: 19px;
+	}
+
+	.profileRowLast .col-xs-12 p{
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+
+	body{
+		font-size: 15px;
+	}
+
+	header .title{
+		font-size: 15vw;
+		letter-spacing: 6px;
+	}
+
+	.titleContainer h3{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	.about h2, .embajadorContainer h4, .contact h2{
+		font-size: 30px
+	}
+
+	.sliderContainer{
+		font-size: 12px;
+	}
+
+	.grid i{
+		font-size: 15px;
+	}
+
+	.profileRows h4{
+		font-size: 10px;
+	}
+
+	.seguidores{
+		width: 65px;
+	}
+
+	.crecimiento{
+    	width: 70px;
+    }
+
+    .impacto{
+		width: 50px;
+    }
+    .pSmall{
+    	font-size: 5px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 10px;
+    }
+
+    .instagramAcc .logoWhite{
+    	height: 30px;
+    	margin-top: -5px;
+    }
+
+    .smrNumber{
+    	font-size: 16vw;
+    }
+
+    .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+    	height: 30px;
+    	padding: 5px;
+    	font-size: 7px;
+    }
+}
